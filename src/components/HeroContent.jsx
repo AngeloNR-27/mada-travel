@@ -6,7 +6,7 @@ function HeroContent(){
                 L’Île Rouge, réinventée
             </div>
 
-            <h1 className="text-white font-extrabold leading-[1.05] text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+            <h1 className="text-white font-extrabold leading-[1.05] text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif">
                 Là où les baobabs touchent  <br />
                 le ciel et où les lémuriens accueillent l’aube.
             </h1>

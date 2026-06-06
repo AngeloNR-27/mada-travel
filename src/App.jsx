@@ -1,6 +1,7 @@
 import './App.css'
 import Hero from './pages/Hero'
 import StatsSection from './components/StatsSection'
+import CircuitsSection from './components/CircuitsSection'
 
 function App() {
  
@@ -12,6 +13,9 @@ function App() {
     </div>
     <div className="Stats">
       <StatsSection/>
+    </div>
+    <div>
+      <CircuitsSection/>
     </div>
     </>
   )

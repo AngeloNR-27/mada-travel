@@ -1,6 +1,6 @@
 function StatsSection() {
   return (
-    <section className="bg-[#f6e9d5] py-10 px-6">
+    <section className="bg-white py-10 px-6">
       <div className="max-w-6xl mx-auto flex  justify-center flex-wrap gap-4 md:gap-8 lg:gap-16 text-center uppercase">   
 
         <div className="w-2/5 md:w-1/5 text-center">
