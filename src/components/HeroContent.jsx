@@ -17,7 +17,7 @@ function HeroContent(){
 
             <div className="flex flex-col sm:flex-row gap-3 mt-6">
 
-                <button className="bg-[#007b63] text-white px-5 py-3 rounded-full hover:opacity-90 transition">
+                <button className="bg-[#004623] text-white px-5 py-3 rounded-full hover:opacity-90 transition">
                     Explorer les circuits
                 </button>
 

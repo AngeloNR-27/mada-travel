@@ -21,7 +21,7 @@ function Nav() {
 
    
       <div className="flex items-center gap-2">
-        <div className="bg-[#007b63] text-white p-2 rounded-full font-bold">
+        <div className="bg-[#004623] text-white p-2 rounded-full font-bold">
           MT
         </div>
         <span className="text-white font-medium">Mada-Travel</span>

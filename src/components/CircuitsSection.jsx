@@ -11,7 +11,7 @@ function CircuitsSection() {
 
           <div className="py-20 w-full md:w-1/2">
 
-            <div className="text-[#007b63] text-2xl">
+            <div className="text-[#004623] text-2xl">
               Nos circuits
             </div>
 
@@ -29,7 +29,7 @@ function CircuitsSection() {
               <div
                 onClick={() => setActive("Tout")}
                 className={`text-xs md:text-sm px-2 py-1 md:px-3 md:py-2 rounded-full cursor-pointer border border-gray-200 transition
-                ${active === "Tout" ? "bg-[#007b63] text-white" : "text-gray-600 bg-white hover:bg-[#007b63] hover:text-white"}`}
+                ${active === "Tout" ? "bg-[#004623] text-white" : "text-gray-600 bg-white hover:bg-[#007b63] hover:text-white"}`}
               >
                 Tout
               </div>
@@ -37,7 +37,7 @@ function CircuitsSection() {
               <div
                 onClick={() => setActive("Plage")}
                 className={`text-xs md:text-sm px-2 py-1 md:px-3 md:py-2 rounded-full cursor-pointer border border-gray-200 transition
-                ${active === "Plage" ? "bg-[#007b63] text-white" : "text-gray-600 bg-white hover:bg-[#007b63] hover:text-white"}`}
+                ${active === "Plage" ? "bg-[#004623] text-white" : "text-gray-600 bg-white hover:bg-[#007b63] hover:text-white"}`}
               >
                 Plage
               </div>
@@ -45,7 +45,7 @@ function CircuitsSection() {
               <div
                 onClick={() => setActive("Faune")}
                 className={`text-xs md:text-sm px-2 py-1 md:px-3 md:py-2 rounded-full cursor-pointer border border-gray-200 transition
-                ${active === "Faune" ? "bg-[#007b63] text-white" : "text-gray-600 bg-white hover:bg-[#007b63] hover:text-white"}`}
+                ${active === "Faune" ? "bg-[#004623] text-white" : "text-gray-600 bg-white hover:bg-[#007b63] hover:text-white"}`}
               >
                 Faune
               </div>
@@ -53,7 +53,7 @@ function CircuitsSection() {
               <div
                 onClick={() => setActive("Aventure")}
                 className={`text-xs md:text-sm px-2 py-1 md:px-3 md:py-2 rounded-full cursor-pointer border border-gray-200 transition
-                ${active === "Aventure" ? "bg-[#007b63] text-white" : "text-gray-600 bg-white hover:bg-[#007b63] hover:text-white"}`}
+                ${active === "Aventure" ? "bg-[#004623] text-white" : "text-gray-600 bg-white hover:bg-[#007b63] hover:text-white"}`}
               >
                 Aventure
               </div>

@@ -122,7 +122,7 @@ function CardsCircuits() {
                   <p className="text-gray-500">{item.price}</p>
                 </div>
 
-                <div className="bg-[#007b63] text-white p-2 w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition">
+                <div className="bg-[#004623] text-white p-2 w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition">
                   <ArrowUpRight />
                 </div>
 
