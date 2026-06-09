@@ -4,6 +4,8 @@ import StatsSection from './components/StatsSection'
 import CircuitsSection from './components/CircuitsSection'
 import FeaturesSection from './components/FeaturesSection'
 import Testimonials from './components/Testimonials'
+import CTA from './components/CTA'
+import Footer from './components/Footer'
 
 function App() {
  
@@ -24,6 +26,12 @@ function App() {
     </div>
     <div>
       <Testimonials/>
+    </div>
+    <div>
+      <CTA/>
+    </div>
+    <div>
+      <Footer/>
     </div>
     </>
   )
