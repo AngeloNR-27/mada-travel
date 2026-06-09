@@ -3,6 +3,7 @@ import Hero from './pages/Hero'
 import StatsSection from './components/StatsSection'
 import CircuitsSection from './components/CircuitsSection'
 import FeaturesSection from './components/FeaturesSection'
+import Testimonials from './components/Testimonials'
 
 function App() {
  
@@ -20,6 +21,9 @@ function App() {
     </div>
     <div> 
       <FeaturesSection/>
+    </div>
+    <div>
+      <Testimonials/>
     </div>
     </>
   )
