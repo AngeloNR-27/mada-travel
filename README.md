@@ -1,6 +1,6 @@
 ##  Landing Page
 
-![Hero Screenshot](./public/screenshots/hero.png)
+![Hero Screenshot](./public/screenshots/Landing.png)
 
 # Installation & Setup
 
