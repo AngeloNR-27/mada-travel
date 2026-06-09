@@ -1,10 +1,9 @@
-import Nav from "../components/Nav";
 import baobab from "../assets/baobab.png";
 import HeroContent from "../components/HeroContent";
 
 function Hero() {
   return (
-    <div className="relative  overflow-hidden">
+    <div className="relative overflow-hidden h-screen">
 
       <img
         src={baobab}
@@ -13,12 +12,9 @@ function Hero() {
 
       <div className="absolute inset-0 bg-black/40" />
 
-      <div className="relative z-10 flex justify-center">
+      <div className="relative z-10 flex items-center justify-center h-full">
         <div className="w-4/5">
-          <Nav />
-          <div className="flex items-center h-screen">
-            <HeroContent />
-          </div>
+          <HeroContent />
         </div>
       </div>
 
