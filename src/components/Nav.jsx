@@ -22,7 +22,11 @@ function Nav() {
    
       <div className="flex items-center gap-2">
         <div className="bg-[#004623] text-white p-2 rounded-full font-bold">
-          MT
+          <img
+              src="/mada-travel-icon.png"
+              alt="Mada Travel Icon"
+              className="h-10 w-10 rounded-full object-cover ring-2 ring-white/20"
+            />
         </div>
         <span className="text-white font-medium">Mada-Travel</span>
       </div>

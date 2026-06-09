@@ -7,8 +7,7 @@ function HeroContent(){
             </div>
 
             <h1 className="text-white font-extrabold leading-[1.05] text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif">
-                Là où les baobabs touchent  <br />
-                le ciel et où les lémuriens accueillent l’aube.
+                Madagascar, entre baobabs, nature sauvage et aubes magiques
             </h1>
 
             <p className="text-white/80 mt-5 text-sm md:text-base max-w-xl leading-relaxed">
