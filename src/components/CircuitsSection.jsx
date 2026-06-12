@@ -73,7 +73,7 @@ function CircuitsSection() {
         </div>
       </section>
       <div>
-          <CardsCircuits/>
+         <CardsCircuits active={active} />
       </div>
     </>
   );

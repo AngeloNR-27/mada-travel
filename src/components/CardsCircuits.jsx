@@ -70,7 +70,13 @@ const circuits = [
   },
 ];
 
-function CardsCircuits() {
+function CardsCircuits({ active }) {
+    const filteredCircuits =
+    active === "Tout"
+      ? circuits
+      : circuits.filter(
+          (item) => item.category === active
+        );
   return (
     <section className="bg-white flex justify-center py-20">
 
@@ -78,7 +84,7 @@ function CardsCircuits() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-          {circuits.map((item, index) => (
+          {filteredCircuits.map((item, index) => (
             <div
               key={index}
               className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300"
